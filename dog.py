@@ -33,4 +33,4 @@ doguinho.dono = "Maria"
 print('O dono eh a {:s}'.format(doguinho.dono))
 
 # Heranca
-print("{} eh do tipo {}".format(doguinho, doguinho.getTipo()))
+print("{1} eh do tipo {0}".format(doguinho.getTipo(), doguinho.nome))
