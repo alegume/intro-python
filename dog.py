@@ -1,13 +1,12 @@
 class Animal:
     tipo = "Mamifero"
 
-    def getTipo(animal):
-        return animal.tipo
+    def getTipo(self):
+        return self.tipo
 
 
 class Catioro(Animal):
     raca = "vira-lata"
-
 
     def __init__(self, nome = "", raca = "", idade = None):
         self.nome = nome
