@@ -19,7 +19,7 @@ class Catiorro(Animal):
 	def __str__(self):
 		return '{} - {} ({})'.format(self.nome, self.raca, self.idade)
 
-	# sobrescrita
+	# # sobrescrita
 	# def getTipo(self):
 	# 	return "Catiorro"
 
