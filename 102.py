@@ -49,3 +49,9 @@ matrix = [
 ]
 
 print(matrix[1][1])
+
+
+dict = {'indice1': 'maca', 'fruta2': 'pera'}
+
+for key, value in dict.items():
+	print(key, value)
