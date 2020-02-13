@@ -4,6 +4,21 @@
 import sys
 
 
+
+
+l = [1, 2, 3]
+l2 = []
+
+
+i = 4
+while i >= 0:
+	l2.append(i)
+	i -= 1
+
+print(l2)
+
+
+
 def ola(nome='Dilma', idade=0):
 	print('ola, ' + nome + '(' + str(idade) + ')')
 	print('Ola, {} ({})'.format(nome, idade))
