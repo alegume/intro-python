@@ -1,64 +1,98 @@
-# import time, threading
+#!/usr/bin/python3
 
-# print('qual é o seu nome?')
+# Alinha acima, conhecida como shebang, é opcional e serve para indicar ao linux como executar o script caso seja executado diretamente. O shebang precisa ser a primeira instrucao presente em um arquivo.
+
+# Comentários de uma linha iniciam como #
+''' Comentários de
+várias linhas
+iniciam e terminam com três aspas'''
+
+print('Bonjour le monde')
+
+# print('Qual é o seu nome?')
 # nome = input()
 # sobrenome = 'Abreu'
-# print('Buenas ' + nome + '! by bye')
+
+a = 5
+b = 5.0
+c = a / 2
+d = b // 2
+e = a % 2
+
+
+print(c)
+print(d)
+print(e)
+
+msg = 'Minimal Techno Tripping'
+size = len(msg)
+print('Tamanho de msg:')
+print(size)
+
+l = [1, 2, 3]
+l2 = []
+
+i = 4
+while i >= 0:
+	l2.append(i)
+	i -= 1
+
+print(l2)
+
+print(type(a))
+print(type(b))
+print(type(l))
+
+
+
+# print('Buenas ' + nome + '! Vlw, flw...')
+# print('Buenas', nome, '! Vlw, flw...')
+
 #
 # msg = 'Buenas {1} {0}!\n\t Bye bye! numero: {2}'.format(nome, sobrenome, 3)
 # print(msg)
 
-# def msg():
-# 	time.sleep(17)
-# 	print("Acordei")
-#
-# try:
-# 	print("dormi")
-# 	Tobj = threading.Thread(target=msg)
-# 	Tobj.start()
-#
-# 	inicio = time.time()
-# 	a = 1
-# 	for i in range(3):
-# 		a = i*i
-# 		time.sleep(1)
-# 		print(i)
-#
-# 	fim = time.time()
-# 	print(fim - inicio)
-#
-# 	print("acaboooou")
-#
-# except KeyboardInterrupt:
-# 	print('\n\tTchau kerida!')
 
-# x = int(input())
+# print('hello world')
 #
-# if x < 0:
-# 	msg = "Negativo"
-# elif x > 0:
-# 	msg = "Positivo"
-# else:
-# 	msg = "Zer0"
-#
-# print(msg)
+# # Comments in python use a '#'
 
-import random, time
-try:
-	while True:
-		par = impar = 0
-		for i in range(4):
-			n = random.randint(1, 2)
+## WARM UP QUIZ
 
-			if n % 2:
-				par += 1
-				print(n)
-			else:
-				impar += 1
-				time.sleep(1)
+# PART I
+a = 5
+b = 5.0
+c = a / 2
+d = b / 2
 
-			print(n)
+# What is type(a)?
 
-		print("par: {}    |     impar: {}".format(par, impar))
-except KeyboardInterrupt:
-	print('\n\tthcau kerida')
+
+# What is type(b)?
+
+
+# What is c?
+
+
+# What is d?
+
+
+
+# EXERCISES
+
+e = [a, b]
+f = list(range(0, 10))
+
+# What is type(e)?
+
+
+# What is len(e)?
+
+
+# What is type(f)?
+
+
+# What are the contents of f?
+
+
+# What is 'list' called? # hint: google it
