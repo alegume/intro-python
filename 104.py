@@ -42,6 +42,7 @@ a, b = b, a
 print('a: {}; b:{}'.format(a, b))
 
 ## Conditionals
+
 temperature = 4
 if temperature <= 0:
 	print('Solido')
