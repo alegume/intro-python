@@ -47,7 +47,7 @@ s.split(' ')        # retorna ['Anything', 'you', 'want', 'it', 'to', 'be']
 s.split()           # idem
 
 
-## Entrada via teclado
+## Entrada via teclado (caracter de escape -> '\')
 # print('What\'s your name?')
 # nome = input()
 # sobrenome = 'Abreu'
@@ -93,3 +93,4 @@ book3 = 'Fooled by Randomness by Nassim Nicholas Taleb, 2001'
 palindrome_one = 'ovo'
 palindrome_two = 'Natan'
 palindrome_three = 'luz azul'
+palindrome_four = 'caneta azul'
