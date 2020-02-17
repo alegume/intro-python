@@ -39,8 +39,8 @@ print(days_list == all_days)
 list = ['a', 1, 3.14159265359]
 print(list)
 print(type(list))
-list.reverse()
-print(list)
+# list.reverse()
+# print(list)
 
 #########
 # Exercicios - Listas
@@ -58,3 +58,7 @@ print(list)
 # Qual eh o tamanho dos dias e days_list?
 
 # Como inverter a ordem dos dias?
+
+# Insira a palavra 'zero' entre 'a' e 1 de list
+
+#
