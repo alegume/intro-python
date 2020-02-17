@@ -19,7 +19,7 @@ test = weekdays[3:]        # elementos 3, 4
 
 weekdays
 
-days = weekdays[-2]        # ultimo elemento (elemento 4)
+days = weekdays[-2]        # ultimo elemento (elemento 4
 days = weekdays[::]        # all elementos
 days = weekdays[::2]       # cada segundo elemento (0, 2, 4)
 days = weekdays[::-1]      # reverso (4, 3, 2, 1, 0)
@@ -49,17 +49,12 @@ print(list)
 
 # Como selecionar 'wed' pelo indice?
 
-
 # Como verificar o tipo de 'mon'?
-
 
 # Como separar 'wed' até 'fri'?
 
-
 # Quais as maneiras de selecionar 'fri' por indice?
 
-
 # Qual eh o tamanho dos dias e days_list?
-
 
 # Como inverter a ordem dos dias?
