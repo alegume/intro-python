@@ -59,6 +59,10 @@ print(type(list))
 
 # Como inverter a ordem dos dias?
 
-# Insira a palavra 'zero' entre 'a' e 1 de list
+# Como inserir a palavra 'zero' entre 'a' e 1 de list?
 
-#
+# Como limpar list?
+
+# Como deletar list?
+
+# Como atribuir o ultimo elemento de list na variavel ultimo_elemento e remove-lo de list?
