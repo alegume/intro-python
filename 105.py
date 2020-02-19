@@ -12,12 +12,12 @@ import sys
 
 ## Loops
 
-# i = 1
-#
-# # While
-# while (i <= 10):
-# 	print(i)
-# 	i += 1
+i = 1
+
+# While
+while (i <= 10):
+	print(i)
+	i += 1
 
 # Aborta o script
 sys.exit(0)
