@@ -32,7 +32,17 @@ professor1 = {'id': 42, 'name': 'Alexandre Abreu', 'age': 30, 'state_origin': 'M
 print(type(professor1))
 print(professor1)
 
+# Tamanho
+print(len(professor1))
+# Chaves
+print(professor1.keys())
+# Valores
+print(professor1.values())
+
 professor2 = {'id': 37, 'name': 'Denilson Barbosa', 'age': 40, 'state_origin': 'Paraná', 'courses': ['Inteligência Artificial', 'Banco de Dados I', 'Banco de Dados II', 'Programação para Internet I']}
+
+# Primeira disciplina
+print(professor2['courses'][0])
 
 # Utilizando construtor
 professor3 = dict(id=28, name='Jorge Armino', idade=37)
@@ -74,3 +84,27 @@ if city == None:
 	print('{} Ainda não possui uma cidade'.format(professor1['name']))
 else:
 	print(city)
+
+# Percorrer os elementos pela chaves
+for key in professor3.keys():
+	value = professor3[key]
+	print(key, ':', value)
+
+# Percorrer os elementos pela chaves e valores
+for key, value in professor2.items():
+	print(key, ':', value)
+
+# Remove chave:valor do dict usando pop(chave)
+courses = professor3.pop('courses')
+print(professor3)
+print(courses)
+
+
+
+
+###
+## Exercicios
+###
+
+
+# Implemente o metodo define_default_city
