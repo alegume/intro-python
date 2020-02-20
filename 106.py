@@ -19,10 +19,12 @@
 # - a chave serve para procurar o valor, mas não o contrário
 
 # Apenas uma funcao vazia. Voce ira implementa-la futuramente :p
+# LER PEP 257
 def define_default_city(state):
-	''' Desc: Esta funcao define uma cidade padrao para um professor. A cidade padrao eh a capital do estado de origem.
-		In: (dict) um professor
-		Out: (bool) True se a capital do estado de origem puder ser definida e False caso contrario
+	''' Define a capital do estado de origem como city_origin para um professor existente no arquivo. Retorna True se a capital do estado de origem existe no arquivo capitais-BR.csv e False, caso contrario.
+
+	Keyword arguments:
+		state -- O estado de origem do professor
 	'''
 	pass
 
@@ -100,11 +102,10 @@ print(professor3)
 print(courses)
 
 
-
-
 ###
 ## Exercicios
 ###
 
 
-# Implemente o metodo define_default_city
+# 1) Implemente o metodo define_default_city de acordo com a docstring definida no inicio da funcao. Utilize a clausula else no loop implementado.
+# 2) Remova do arquivo capitais-BR.csv todas capitais dos estados do sudeste e teste se sua funcao estah robusta o suficiente.
