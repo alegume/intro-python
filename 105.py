@@ -99,4 +99,5 @@ for n in range(2, 10):
 ## usando a string: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 # 4) Conte quantas palavras de tamanho >= 5 existe nessa string
 
-# 3) Usando list comprehension, crie uma lista com os multiplos de 3 de 0 ate 100
+# 5) Usando list comprehension, crie uma lista com os multiplos de 3 de 0 ate 100
+# Faca uma funcao para encontrar os numeros primos no intervalo [2, 10), mas nao utilize a clausula else do for
