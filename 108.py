@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-## Objetos
+## Classes e Objetos
+# metodos magicos: https://www.python-course.eu/python3_magic_methods.php
 
 class Animal:
 	tipo = "Mamifero"
@@ -12,7 +13,9 @@ class Animal:
 class Catiorro(Animal):
 	raca = "vira-lata"
 
-	def __init__(self, nome="", raca="", idade=None):
+	# dunder init dunder eh o construtor da classe. Dunder = double underscore
+	# self eh uma referencia ao objeto. Pode ser usado outro nome, mas nao eh comum.
+	def __init__(self, nome='', raca='', idade=None):
 		self.nome = nome
 		self.idade = idade
 		if raca == '':
@@ -49,4 +52,3 @@ print("{1} eh do tipo {0}".format(doguinho.getTipo(), doguinho.nome))
 ###
 # Exercicio
 ###
-
