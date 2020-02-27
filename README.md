@@ -1,8 +1,12 @@
 # Introdução 'dinâmica' ao Python 3
 
-Repositório de exemplos e desafios utilizados na disciplinas de Programação para e Internet II
+Repositório de exemplos e desafios utilizados na disciplinas de Programação para e Internet II.
+Algumas orientações:
 
-
+0. clone o repositório da seguinte maneira (git clone `https://github.com/alegume/intro-python.git`);
+1. revise os arquivos estudados em sala de aula (101.py, 102.py, ...);
+2. faça os desafios e exercícios conforme descrição abaixo;
+3. use os arquivos \*.csv e \*.tar.gz para realizar os desafios.
 
 ## Envio dos desafios e listas de exercícios
 
