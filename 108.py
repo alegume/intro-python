@@ -6,10 +6,10 @@ from datetime import date
 
 # Primeira classe
 class Animal:
-	# atributo comum
+	# Atributo comum
 	tipo = "Mamifero"
 
-	# metodo da classe
+	# Metodo da classe
 	def get_tipo(self):
 		return self.tipo
 
@@ -19,7 +19,7 @@ class Catiorro(Animal):
 	# Atributo protegido (protected)
 	_data_criacao_ = date.today()
 
-	# dunder init dunder eh o construtor da classe. Dunder = double underscore
+	# Dunder init dunder eh o construtor da classe. Dunder = double underscore
 	# self eh uma referencia ao objeto. Pode ser usado outro nome, mas nao eh comum.
 	def __init__(self, nome='', raca='', idade=None):
 		self.nome = nome
@@ -29,16 +29,16 @@ class Catiorro(Animal):
 		else:
 			self.raca = raca
 
-	# outro metodo privado e 'magico'
-	# metodos magicos: https://www.python-course.eu/python3_magic_methods.php
+	# Outro metodo privado e 'magico'
+	# Metodos magicos: https://www.python-course.eu/python3_magic_methods.php
 	def __str__(self):
 		return '{} - {} ({})'.format(self.nome, self.raca, self.idade)
 
 	def imprimir_criacao(self):
-		# formatacao da data com strftime
+		# Formatacao da data com strftime
 		print(self._data_criacao_.strftime('%d/%m/%Y'))
 
-	# # sobrescrita
+	# # Sobrescrita
 	# def get_tipo(self):
 	# 	return "Catiorro"
 
