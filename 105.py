@@ -92,7 +92,7 @@ for n in range(2, 10):
 ## Usando a lista: ['a','b','c']
 # 1) Faca um loop para retornar: ['A','B','C']
 
-## Usando os numeros: [0, 1, 3, 4, 5]
+## Usando a lista: [0, 1, 7, 4, 5]
 # 2) Faca um loop para retornar a soma de todos os elementos da listas
 # 3) Faca um loop para retornar apenas os numeros impares
 
