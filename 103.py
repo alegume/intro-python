@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
 '''
-	DESAFIO!!!
-	Implemente um algoritmo para inverter a ordem de uma string em sua
-	linguagem de programacao favorita. Nao use funcoes/metodos prontos
+    DESAFIO!!!
+    Implemente um algoritmo para inverter a ordem de uma string em sua
+    linguagem de programacao favorita. Nao use funcoes/metodos prontos.
 '''
 
 ## STRINGS
@@ -29,7 +29,7 @@ s2 = len(s)  # retorna 10
 # Como jah fizemos com as listas
 s2 = s[0:7]  # retorna 'I like '
 
-s2 = s[6:]  # retorna 'you'
+s2 = s[6:]  # retorna ' you'
 
 s2 = s[-1]  # retorna 'u'
 
@@ -47,16 +47,18 @@ s.split(' ')        # retorna ['Anything', 'you', 'want', 'it', 'to', 'be']
 s.split()           # idem
 
 
-## Entrada via teclado (caracter de escape -> '\')
-# print('What\'s your name?')
-# nome = input()
-# sobrenome = 'Abreu'
-# print('Hi, ' + nome)
-# print('Hi,', nome)
-#
-## Formatacao com o metodo format
-# msg = 'Hi, {1} {0}!'.format(nome, sobrenome)
-# print(msg)
+# Entrada via teclado (caracter de escape -> '\')
+print('What\'s your name?')
+nome = input()
+sobrenome = 'Abreu'
+print('Hi, ' + nome)
+print('Hi,', nome)
+
+# Formatacao com o metodo format
+msg = 'Hi, {} {}!'.format(sobrenome, nome)
+print(msg)
+msg = f'Hi, {sobrenome} {nome}!'
+print(msg)
 
 
 ## Inverter a string
