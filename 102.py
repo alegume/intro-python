@@ -17,7 +17,7 @@ days = weekdays[-1]        # ultimo elemento
 
 test = weekdays[3:]        # elementos 3, 4
 
-weekdays
+print(test)
 
 days = weekdays[-2]        # ultimo elemento (elemento 4
 days = weekdays[::]        # all elementos
@@ -39,6 +39,7 @@ print(days_list == all_days)
 list = ['a', 1, 3.14159265359]
 print(list)
 print(type(list))
+
 # list.reverse()
 # print(list)
 
