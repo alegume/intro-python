@@ -1,19 +1,19 @@
 #!/usr/bin/python3
 
 '''
-	DESAFIO!!!
-	1) Implemente um algoritmo para trocar o conteudo de duas variáveis x e y.
-	2) Agora faca sem utilizar uma terceira variavel temporaria.
-	OBS.: Use sua linguagem de programacao favorita. Nao use funcoes/metodos prontos.
+    DESAFIO!!!
+    1) Implemente um algoritmo para trocar o conteudo de duas variáveis x e y.
+    2) Agora faca sem utilizar uma terceira variavel temporaria.
+    OBS.: Use sua linguagem de programacao favorita. Nao use funcoes/metodos prontos.
 '''
 
-## Functions
+## Funcoes
 
 # Define a funcao
 def sum(x=3, y=5):
-	print("x: " + str(x))
-	print("y: " + str(y))
-	return x + y
+    print("x: " + str(x))
+    print("y: " + str(y))
+    return x + y
 
 # Chamada simples de funcao
 x = 1
@@ -29,31 +29,49 @@ print(z)
 z = sum()
 print(z)
 
+# PACKING E UNPACKING
 # Atribuicao para mais de uma variável
 a, b = x, y
-print('a: {}; b:{}'.format(a, b))
+print(f'a: {a}, b:{b}')
 
 list = [1, 2, 3]
 a, b, c = list
-print('a: {}; b:{}; c:{}'.format(a, b, c))
+print(f'a: {a}, b:{b}, c:{c}')
+
+# Ignorando um valor
+a, b, _ = list
+print(f'a: {a}, b:{b},')
+
+# Multiplos valores (*)
+a, *resto = list
+print(f'a: {a}, resto: {resto}')
 
 # troca de valores
 a, b = b, a
-print('a: {}; b:{}'.format(a, b))
+print(f'a: {a}, b:{b}')
 
-## Conditionals
+
+## CONDICIONAIS
 
 temperature = 4
 if temperature <= 0:
-	print('Solido')
+    print('Solido')
 elif temperature > 0 and temperature < 100:
-	print('Liquido')
+    print('Liquido')
 else:
-	print('Gasoso')
+    print('Gasoso')
 
 # Notacao matematica
 if 0 < temperature < 100:
-	print('Liquido')
+    print('Liquido')
+
+
+## Operador ternario
+# var = resultado_condicao_verdadeitra if condicao else resultado_condicao_false
+valor = 4
+positivo = True if valor > 0 else False
+print(positivo)
+
 
 ###
 # Exercicios
