@@ -70,7 +70,8 @@ for i in cubes:
 # percorre uma lista e imprime se encontrou, ou nao, o elemento 6
 for i in range(999):
     if i == 6:
-    print('Elemento 6 encontrado na lista')
+        print('Elemento 6 encontrado na lista')
+        break
 else:
     print('O elemento 6 NAO foi encontrado na lista')
 
