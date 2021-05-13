@@ -37,6 +37,7 @@ for p in tuple:
 # tamanho das tuplas eh bem menor. Pode ser significante ao se trabalhar com grande quantidade de dados
 print('Tamanho lista: ', sys.getsizeof(list))
 print('Tamanho tupla: ', sys.getsizeof(tuple))
+
 # tamanho de um range (lembram da ultima aula?)
 print('Tamanho range: ', sys.getsizeof(range(9)))
 print('Tamanho range: ', sys.getsizeof(range(999999999999999999)))
@@ -46,10 +47,12 @@ print('Tamanho range: ', sys.getsizeof(range(999999999999999999)))
 list_time = timeit.timeit(stmt="[1,2,3,4,5]", number=1_000_000)
 tuple_time = timeit.timeit(stmt="(1,2,3,4,5)", number=1_000_000)
 
+
 print('Tempo lista:', list_time)
 print('Tempo tupla:', tuple_time)
 percent = tuple_time / list_time * 100
 print(f'{percent}% mais rapido')
+
 
 # as tuplas nao precisam dos parenteses para serem criadas
 t1 = (1, 2)
@@ -62,10 +65,11 @@ print(t1 == t2)
 # Unpack de tupla. Formato (idade, cidade, vacinado)
 survey = (22, 'Canoinhas', False)
 age, city, vaccined = survey
-print(f'idade: {age}; país: {city}; sabe python: {vaccined}')
+
+print(f'idade: {age}; cidade: {city}; vacinado: {vaccined}')
 
 # Acesso por indice
-print(survey[1])
+print(survey[2])
 
 # Detalhes
 empty_tuple = ()
