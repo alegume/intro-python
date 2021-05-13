@@ -29,9 +29,10 @@ sys.exit(0)
 
 # iteracao identica
 for p in list:
-	print(p)
+    print(p)
+
 for p in tuple:
-	print(p)
+    print(p)
 
 # tamanho das tuplas eh bem menor. Pode ser significante ao se trabalhar com grande quantidade de dados
 print('Tamanho lista: ', sys.getsizeof(list))
@@ -42,13 +43,13 @@ print('Tamanho range: ', sys.getsizeof(range(999999999999999999)))
 
 # por ser imutavel, as tuplas sao criadas mais rapidamente
 # tempo para cria um milhao de listas e tuplas (aumente essa quantidade, progressivamente, para perceber o efeito)
-list_time = timeit.timeit(stmt="[1,2,3,4,5]", number=1000000)
-tuple_time = timeit.timeit(stmt="(1,2,3,4,5)", number=1000000)
+list_time = timeit.timeit(stmt="[1,2,3,4,5]", number=1_000_000)
+tuple_time = timeit.timeit(stmt="(1,2,3,4,5)", number=1_000_000)
 
 print('Tempo lista:', list_time)
 print('Tempo tupla:', tuple_time)
-print('{}% mais rapido'.format(tuple_time / list_time * 100))
-
+percent = tuple_time / list_time * 100
+print(f'{percent}% mais rapido')
 
 # as tuplas nao precisam dos parenteses para serem criadas
 t1 = (1, 2)
@@ -58,15 +59,27 @@ print(type(t1))
 print(type(t2))
 print(t1 == t2)
 
-# unpack de tupla ;P
-survey = (22, "Timor Leste", False)
-age, country, knows_python = survey
-print('idade: {}; país: {}; sabe python: {}'.format(age, country, knows_python))
+# Unpack de tupla. Formato (idade, cidade, vacinado)
+survey = (22, 'Canoinhas', False)
+age, city, vaccined = survey
+print(f'idade: {age}; país: {city}; sabe python: {vaccined}')
 
 # Acesso por indice
 print(survey[1])
 
+# Detalhes
+empty_tuple = ()
+tuple1 = ('teste1')
+tuple2 = ('teste1', 'teste2')
 
+print(type(empty_tuple))
+print(type(tuple1))
+print(type(tuple2))
+
+# Forcar tuple1 a ser uma tupla
+
+tuple1 = ('teste1', )
+print(type(tuple1))
 
 ###
 # Exercicio
