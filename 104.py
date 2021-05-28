@@ -79,6 +79,6 @@ print(positivo)
 
 # 1) Crie uma funcao que receba duas listas e verifique se elas são iguais. Cada elemento e sua ordem devem ser o mesmo. Retorne True ou False.
 #
-# 2) Crie uma funcao que verifica se duas strings são palindromes perfeitas. Faca as 'limpeza'/sanitizacao necessarias.  Retorne True ou False.
+# 2) Crie uma funcao que verifica se duas strings são palindromes perfeitas entre si. Faca as 'limpeza'/sanitizacao necessarias.  Retorne True ou False.
 #
 # OBS.: Utilize apenas o que foi estudado ate agora

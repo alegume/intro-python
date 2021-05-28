@@ -90,5 +90,5 @@ print(type(tuple1))
 ###
 
 # 1) Imprima os metodos disponiveis para uma lista e para uma tupla
-# 2) Faca um metodo para retornar apenas as diferencas entre as duas de metodos
+# 2) Faca um metodo para retornar apenas as diferencas entre as a lista de metodos disponiveis para uma lista e para uma tupla
 # 3) Adicione as coordenadas (latitude, longitude) para os dicts professor1, professor2 e professor3. Copie os dicts do arquivo 106.py. As coordenadas precisam ser inseparaveis e imutaveis.
